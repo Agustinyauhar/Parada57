@@ -1,0 +1,275 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*header*/
+.logo-nosotros2 {
+  height: 190px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 125px;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+body {
+  height: auto;
+  width: auto;
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+}
+
+
+/*main1*/
+main {
+  height: 1200px;
+  width: auto;
+}
+
+.bienvenidos {
+  padding-left: 44%;
+  margin-top: 50px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#nombre {
+  font-size: 60px;
+}
+#text-index {
+  font-size: 20px;
+  padding-left: 30px;
+}
+/*section1*/
+
+section div img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.div-index {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.div-productosI {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  border: 2px dashed black;
+  margin: 20px;
+  height: 550px;
+  align-items: center;
+  justify-content: center;
+}
+
+.productos {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.h2cajas {
+  font-size: 40px;
+}
+
+.boton {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  background-color: #ffae00;
+  border: 2px solid #ffae00;
+}
+.boton:hover{
+  transition: background-color 0.3s ease;
+  background-color: #2980b9;
+}
+
+
+/*local*/
+.div-productos2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 750px;
+  border: 2px dashed black;
+  margin: 120px;
+  height: 550px;
+  align-items: center;
+  justify-content: center;
+}
+
+.h3cajas {
+  font-size: 70px;
+}
+
+.contenedor-productos {
+  position: relative;
+  height: 100px;
+}
+
+.bienvenidos2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#nombre1 {
+  font-size: 60px;
+}
+
+#encontrarnos{
+margin-top: 170px;
+}
+
+
+/*Nosotros*/
+.nosotros{
+  display: flex;
+  flex-direction: row;
+  margin-top: 800px;  
+}
+
+.logo{
+  width: 50%;
+  padding-left: 290px;
+}
+.identidad{
+  width: 70%;
+  display: block;
+  text-align: center;
+  
+}
+
+.somos{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.texto{
+  margin-top: 20px;
+  margin-right: 160px;
+  margin-left: 160px;
+  font-size: 20px;
+}
+
+
+/*Venta Online*/
+
+
+.galeria {
+  height: auto;
+  width: 100%;
+  padding: 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 25px;
+}
+
+.item {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.envios {
+  grid-row: 1/2;
+  grid-column: 1/4;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo-img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  transition: transform 0.2s ease-in-out;
+}
+
+.logo-img:hover {
+  transform: scale(1.1);
+}
+
+/*Footer*/
+
+footer {
+  margin-top: 1450px;
+}
+
+.iconos{
+  margin-top: 3140px;
+  padding-left: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%, -50%);
+}
+
+i{
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  margin: 20px;
+  border-radius: 40px;
+  padding: 15px;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0, .35);
+  transition: .3s ease;
+}
+
+.bi-instagram:hover{
+  background-color: #FF3E00;
+  color: white;
+  box-shadow: 0 0 15px #FF3E00 
+              0 0 45px #FF3E00
+              0 0 75px #FF3E00
+              0 0 115px #FF3E00;
+}
+
+
+.bi-facebook:hover{
+  background-color: #1da1f2;
+  color: white;
+  box-shadow: 0 0 15px #1da1f2
+              0 0 45px #1da1f2
+              0 0 75px #1da1f2
+              0 0 115px #1da1f2;
+}
+
+
